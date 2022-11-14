@@ -6,3 +6,8 @@ class testkvadratik(unittest.TestCase):
         self.assertEqual(Lab1.cubick("001"), 2)
         self.assertEqual(Lab1.cubick("100100"), 0)
         self.assertEqual(Lab1.cubick("001001"), 2)
+
+        
+        
+        if __name__ == '__main__':
+            unittest.main()
